@@ -6,8 +6,9 @@ import { ChevronDown } from "lucide-react"
 
 const images = [
   "/images/kanyakumari-lighthouse.jpg",
-  "/images/kanyakumari-sunset.jpg",
+  "/images/kanyakumari-sunset2.jpg",
   "/images/kanyakumari-beach.jpg",
+  "/images/Sunrise2.jpg",
 ]
 
 export function Hero() {
@@ -51,7 +52,7 @@ export function Hero() {
 <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 sm:px-6 text-center text-white">
 
   {/* Welcome Text */}
-  <p className="mb-4 sm:mb-6 text-xs tracking-[0.25em] sm:tracking-[0.35em] uppercase opacity-90">
+  <p className="mb-4 sm:mb-6 text-sm sm:text-base tracking-[0.25em] sm:tracking-[0.35em] uppercase opacity-90 text-white">
     Welcome To
   </p>
 
@@ -82,8 +83,7 @@ export function Hero() {
   </div>
 </div>
 
-  {/* Tagline */}
-  <p className="mb-4 sm:mb-6 max-w-xl text-xs sm:text-sm md:text-base leading-relaxed opacity-80 px-4">
+  <p className="mb-4 sm:mb-6 max-w-xl text-sm sm:text-base md:text-lg leading-relaxed opacity-90 px-4 font-serif text-white">
     Experience coastal luxury near the iconic Kanyakumari Lighthouse, 
     where three seas meet and every sunrise paints the sky with wonder.
   </p>
