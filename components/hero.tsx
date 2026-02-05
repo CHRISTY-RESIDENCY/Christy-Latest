@@ -9,6 +9,7 @@ const images = [
   "/images/kanyakumari-sunset2.jpg",
   "/images/kanyakumari-beach.jpg",
   "/images/Sunrise2.jpg",
+  "/images/shore.jpg",
 ]
 
 export function Hero() {
