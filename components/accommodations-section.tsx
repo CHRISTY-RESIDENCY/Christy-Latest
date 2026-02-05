@@ -84,14 +84,14 @@ function RoomImageCarousel({ images, name }: { images: string[]; name: string })
         <>
           <button
             onClick={prevSlide}
-            className="absolute left-4 top-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center bg-background/80 text-foreground opacity-0 transition-all hover:bg-background group-hover:opacity-100"
+            className="absolute left-4 top-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center bg-background/80 text-foreground opacity-100 transition-all hover:bg-background md:opacity-0 md:group-hover:opacity-100"
             aria-label="Previous image"
           >
             <ChevronLeft className="h-5 w-5" />
           </button>
           <button
             onClick={nextSlide}
-            className="absolute right-4 top-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center bg-background/80 text-foreground opacity-0 transition-all hover:bg-background group-hover:opacity-100"
+            className="absolute right-4 top-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center bg-background/80 text-foreground opacity-100 transition-all hover:bg-background md:opacity-0 md:group-hover:opacity-100"
             aria-label="Next image"
           >
             <ChevronRight className="h-5 w-5" />
@@ -182,7 +182,7 @@ export function AccommodationsSection() {
           <p className="mb-6 font-serif text-2xl font-light text-foreground">
             Experience a blend of nature, comfort and luxury like never before.
           </p>
-          <button className="border border-foreground px-10 py-4 text-sm tracking-wide text-foreground transition-all hover:bg-foreground hover:text-background">
+          <button className="border border-foreground px-10 py-4 text-sm tracking-wide text-foreground transition-all hover:bg-foreground hover:text-background relative z-10 touch-manipulation">
             Book Your Stay
           </button>
         </div>
